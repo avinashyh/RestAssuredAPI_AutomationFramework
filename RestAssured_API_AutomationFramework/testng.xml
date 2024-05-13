@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.reqers.testcases.GET_SingleResource_TestCase"/>
+      <class name="com.reqers.testcases.GetUserListTest"/>
+      <class name="com.reqers.testcases.DELETE_DeleteUser_TestCase"/>
+      <class name="com.reqers.testcases.GET_SingleUser_TestCase"/>
+      <class name="com.reqers.testcases.PUT_UpdateUser_TestCase"/>
+      <class name="com.reqers.testcases.POST_Registration_TestCase"/>
+      <class name="com.reqers.testcases.POST_Login_TestCase"/>
+      <class name="com.reqers.testcases.POST_CreateUser_TestCase"/>
+      <class name="com.reqers.testcases.GET_SingleUserNotFounf_TestCase"/>
+      <class name="com.reqers.testcases.PATCH_UpdateUser_TestCase"/>
+      <class name="com.reqers.testcases.POST_LoginFail_TestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

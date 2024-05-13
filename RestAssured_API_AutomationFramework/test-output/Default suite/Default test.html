@@ -1,0 +1,697 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>44/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 13 12:39:58 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>39 seconds (39854 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.reqers.testcases.GetUserListTest.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.reqers.testcases.GetUserListTest<br/>
+<a href="#Output-966005897" onClick='toggleBox("Output-966005897", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-966005897" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-966005897">
+Response Time is => 1468<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.reqers.testcases.GetUserListTest.checkResponseTime(GetUserListTest.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace966005897", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace966005897'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.reqers.testcases.GetUserListTest.checkResponseTime(GetUserListTest.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.reqers.testcases.GetUserListTest@5656be13</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleUser_TestCase.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.reqers.testcases.GET_SingleUser_TestCase<br/>
+<a href="#Output-1588330347" onClick='toggleBox("Output-1588330347", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1588330347" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1588330347">
+Status Code is => 200<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleUser_TestCase@3270d194</td></tr>
+<tr>
+<td title='com.reqers.testcases.POST_Login_TestCase.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.reqers.testcases.POST_Login_TestCase<br/>
+<a href="#Output-676692948" onClick='toggleBox("Output-676692948", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-676692948" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-676692948">
+Status Code is => 200<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.POST_Login_TestCase@235834f2</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleUserNotFounf_TestCase.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.reqers.testcases.GET_SingleUserNotFounf_TestCase<br/>
+<a href="#Output-2040609056" onClick='toggleBox("Output-2040609056", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2040609056" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2040609056">
+Response Time is => 449<br/>
+Response Time is < 2000 <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleUserNotFounf_TestCase@14cd1699</td></tr>
+<tr>
+<td title='com.reqers.testcases.POST_LoginFail_TestCase.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.reqers.testcases.POST_LoginFail_TestCase<br/>
+<a href="#Output-424918165" onClick='toggleBox("Output-424918165", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-424918165" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-424918165">
+Status Code is => 400<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.POST_LoginFail_TestCase@73a1e9a9</td></tr>
+<tr>
+<td title='com.reqers.testcases.PATCH_UpdateUser_TestCase.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.reqers.testcases.PATCH_UpdateUser_TestCase<br/>
+<a href="#Output-1872410525" onClick='toggleBox("Output-1872410525", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1872410525" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1872410525">
+Status Code is => 200<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.PATCH_UpdateUser_TestCase@77888435</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleUserNotFounf_TestCase.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.reqers.testcases.GET_SingleUserNotFounf_TestCase<br/>
+<a href="#Output-1107984450" onClick='toggleBox("Output-1107984450", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1107984450" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1107984450">
+Status Line is => HTTP/1.1 404 Not Found<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleUserNotFounf_TestCase@14cd1699</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleUser_TestCase.checkServerType()'><b>checkServerType</b><br>Test class: com.reqers.testcases.GET_SingleUser_TestCase<br/>
+<a href="#Output-704832331" onClick='toggleBox("Output-704832331", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-704832331" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-704832331">
+Server Type is => cloudflare<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleUser_TestCase@3270d194</td></tr>
+<tr>
+<td title='com.reqers.testcases.POST_CreateUser_TestCase.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.reqers.testcases.POST_CreateUser_TestCase<br/>
+<a href="#Output-1143499107" onClick='toggleBox("Output-1143499107", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1143499107" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1143499107">
+Status Line is => HTTP/1.1 201 Created<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.POST_CreateUser_TestCase@76505305</td></tr>
+<tr>
+<td title='com.reqers.testcases.GetUserListTest.checkServerType()'><b>checkServerType</b><br>Test class: com.reqers.testcases.GetUserListTest<br/>
+<a href="#Output-1868366224" onClick='toggleBox("Output-1868366224", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1868366224" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1868366224">
+Server Type is => nginx/1.21.6<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GetUserListTest@5656be13</td></tr>
+<tr>
+<td title='com.reqers.testcases.GetUserListTest.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.reqers.testcases.GetUserListTest<br/>
+<a href="#Output-2117382439" onClick='toggleBox("Output-2117382439", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2117382439" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2117382439">
+Status Line is => HTTP/1.1 200 OK<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GetUserListTest@5656be13</td></tr>
+<tr>
+<td title='com.reqers.testcases.PATCH_UpdateUser_TestCase.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.reqers.testcases.PATCH_UpdateUser_TestCase<br/>
+<a href="#Output-1202178366" onClick='toggleBox("Output-1202178366", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1202178366" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1202178366">
+Response Body is => io.restassured.internal.RestAssuredResponseImpl@4877919f<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.PATCH_UpdateUser_TestCase@77888435</td></tr>
+<tr>
+<td title='com.reqers.testcases.DELETE_DeleteUser_TestCase.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.reqers.testcases.DELETE_DeleteUser_TestCase<br/>
+<a href="#Output-1772780918" onClick='toggleBox("Output-1772780918", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1772780918" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1772780918">
+Status Line is => HTTP/1.1 404 Not Found<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.DELETE_DeleteUser_TestCase@692f203f</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleUserNotFounf_TestCase.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.reqers.testcases.GET_SingleUserNotFounf_TestCase<br/>
+<a href="#Output-895812217" onClick='toggleBox("Output-895812217", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-895812217" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-895812217">
+Response Body is => io.restassured.internal.RestAssuredResponseImpl@251c4280<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleUserNotFounf_TestCase@14cd1699</td></tr>
+<tr>
+<td title='com.reqers.testcases.GetUserListTest.checkContentType()'><b>checkContentType</b><br>Test class: com.reqers.testcases.GetUserListTest<br/>
+<a href="#Output-1043576110" onClick='toggleBox("Output-1043576110", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1043576110" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1043576110">
+Content Type is => application/json<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GetUserListTest@5656be13</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleResource_TestCase.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.reqers.testcases.GET_SingleResource_TestCase<br/>
+<a href="#Output-990656849" onClick='toggleBox("Output-990656849", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-990656849" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-990656849">
+Status Line is => HTTP/1.1 200 OK<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleResource_TestCase@4218d6a3</td></tr>
+<tr>
+<td title='com.reqers.testcases.POST_LoginFail_TestCase.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.reqers.testcases.POST_LoginFail_TestCase<br/>
+<a href="#Output-816760435" onClick='toggleBox("Output-816760435", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-816760435" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-816760435">
+Status Line is => HTTP/1.1 400 Bad Request<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.POST_LoginFail_TestCase@73a1e9a9</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleUser_TestCase.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.reqers.testcases.GET_SingleUser_TestCase<br/>
+<a href="#Output-381768094" onClick='toggleBox("Output-381768094", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-381768094" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-381768094">
+Response Time is => 137<br/>
+Response Time is < 2000 <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleUser_TestCase@3270d194</td></tr>
+<tr>
+<td title='com.reqers.testcases.PUT_UpdateUser_TestCase.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.reqers.testcases.PUT_UpdateUser_TestCase<br/>
+<a href="#Output-2093996783" onClick='toggleBox("Output-2093996783", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2093996783" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2093996783">
+Response Body is => io.restassured.internal.RestAssuredResponseImpl@3443e476<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.PUT_UpdateUser_TestCase@55182842</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleUserNotFounf_TestCase.checkContentType()'><b>checkContentType</b><br>Test class: com.reqers.testcases.GET_SingleUserNotFounf_TestCase<br/>
+<a href="#Output-786036472" onClick='toggleBox("Output-786036472", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-786036472" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-786036472">
+Content Type is => application/json; charset=utf-8<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleUserNotFounf_TestCase@14cd1699</td></tr>
+<tr>
+<td title='com.reqers.testcases.POST_Registration_TestCase.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.reqers.testcases.POST_Registration_TestCase<br/>
+<a href="#Output-373703332" onClick='toggleBox("Output-373703332", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-373703332" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-373703332">
+Response Body is => io.restassured.internal.RestAssuredResponseImpl@7fad214a<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.POST_Registration_TestCase@55141def</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleResource_TestCase.checkContentType()'><b>checkContentType</b><br>Test class: com.reqers.testcases.GET_SingleResource_TestCase<br/>
+<a href="#Output-1172707268" onClick='toggleBox("Output-1172707268", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1172707268" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1172707268">
+Content Type is => application/json; charset=utf-8<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleResource_TestCase@4218d6a3</td></tr>
+<tr>
+<td title='com.reqers.testcases.POST_CreateUser_TestCase.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.reqers.testcases.POST_CreateUser_TestCase<br/>
+<a href="#Output-1615389290" onClick='toggleBox("Output-1615389290", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1615389290" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1615389290">
+Response Body is => io.restassured.internal.RestAssuredResponseImpl@62a54948<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.POST_CreateUser_TestCase@76505305</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleUser_TestCase.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.reqers.testcases.GET_SingleUser_TestCase<br/>
+<a href="#Output-1526730726" onClick='toggleBox("Output-1526730726", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1526730726" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1526730726">
+Status Line is => HTTP/1.1 200 OK<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleUser_TestCase@3270d194</td></tr>
+<tr>
+<td title='com.reqers.testcases.POST_Registration_TestCase.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.reqers.testcases.POST_Registration_TestCase<br/>
+<a href="#Output-1353756631" onClick='toggleBox("Output-1353756631", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1353756631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1353756631">
+Status Line is => HTTP/1.1 200 OK<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.POST_Registration_TestCase@55141def</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleResource_TestCase.checkServerType()'><b>checkServerType</b><br>Test class: com.reqers.testcases.GET_SingleResource_TestCase<br/>
+<a href="#Output-1093426827" onClick='toggleBox("Output-1093426827", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1093426827" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1093426827">
+Server Type is => cloudflare<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleResource_TestCase@4218d6a3</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleResource_TestCase.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.reqers.testcases.GET_SingleResource_TestCase<br/>
+<a href="#Output-473183836" onClick='toggleBox("Output-473183836", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-473183836" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-473183836">
+Response Body is => io.restassured.internal.RestAssuredResponseImpl@5042e3d0<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleResource_TestCase@4218d6a3</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleResource_TestCase.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.reqers.testcases.GET_SingleResource_TestCase<br/>
+<a href="#Output-880883688" onClick='toggleBox("Output-880883688", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-880883688" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-880883688">
+Response Time is => 164<br/>
+Response Time is < 2000 <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleResource_TestCase@4218d6a3</td></tr>
+<tr>
+<td title='com.reqers.testcases.POST_Registration_TestCase.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.reqers.testcases.POST_Registration_TestCase<br/>
+<a href="#Output-1976503781" onClick='toggleBox("Output-1976503781", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1976503781" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1976503781">
+Status Code is => 200<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.POST_Registration_TestCase@55141def</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleResource_TestCase.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.reqers.testcases.GET_SingleResource_TestCase<br/>
+<a href="#Output-104298781" onClick='toggleBox("Output-104298781", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-104298781" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-104298781">
+Status Code is => 200<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleResource_TestCase@4218d6a3</td></tr>
+<tr>
+<td title='com.reqers.testcases.POST_CreateUser_TestCase.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.reqers.testcases.POST_CreateUser_TestCase<br/>
+<a href="#Output-1354314579" onClick='toggleBox("Output-1354314579", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1354314579" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1354314579">
+Status Code is => 201<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.POST_CreateUser_TestCase@76505305</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleUser_TestCase.checkContentType()'><b>checkContentType</b><br>Test class: com.reqers.testcases.GET_SingleUser_TestCase<br/>
+<a href="#Output-1302459274" onClick='toggleBox("Output-1302459274", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1302459274" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1302459274">
+Content Type is => application/json; charset=utf-8<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleUser_TestCase@3270d194</td></tr>
+<tr>
+<td title='com.reqers.testcases.GetUserListTest.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.reqers.testcases.GetUserListTest<br/>
+<a href="#Output-1731406622" onClick='toggleBox("Output-1731406622", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1731406622" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1731406622">
+Status Code is => 200<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GetUserListTest@5656be13</td></tr>
+<tr>
+<td title='com.reqers.testcases.GetUserListTest.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.reqers.testcases.GetUserListTest<br/>
+<a href="#Output-988637661" onClick='toggleBox("Output-988637661", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-988637661" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-988637661">
+Response Body is => io.restassured.internal.RestAssuredResponseImpl@4c6a4ffd<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GetUserListTest@5656be13</td></tr>
+<tr>
+<td title='com.reqers.testcases.PUT_UpdateUser_TestCase.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.reqers.testcases.PUT_UpdateUser_TestCase<br/>
+<a href="#Output-854977732" onClick='toggleBox("Output-854977732", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-854977732" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-854977732">
+Status Line is => HTTP/1.1 200 OK<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.PUT_UpdateUser_TestCase@55182842</td></tr>
+<tr>
+<td title='com.reqers.testcases.PATCH_UpdateUser_TestCase.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.reqers.testcases.PATCH_UpdateUser_TestCase<br/>
+<a href="#Output-1689129053" onClick='toggleBox("Output-1689129053", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1689129053" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1689129053">
+Status Line is => HTTP/1.1 200 OK<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.PATCH_UpdateUser_TestCase@77888435</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleUserNotFounf_TestCase.checkServerType()'><b>checkServerType</b><br>Test class: com.reqers.testcases.GET_SingleUserNotFounf_TestCase<br/>
+<a href="#Output-405700314" onClick='toggleBox("Output-405700314", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-405700314" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-405700314">
+Server Type is => cloudflare<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleUserNotFounf_TestCase@14cd1699</td></tr>
+<tr>
+<td title='com.reqers.testcases.DELETE_DeleteUser_TestCase.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.reqers.testcases.DELETE_DeleteUser_TestCase<br/>
+<a href="#Output-187150864" onClick='toggleBox("Output-187150864", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-187150864" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-187150864">
+Status Code is => 404<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.DELETE_DeleteUser_TestCase@692f203f</td></tr>
+<tr>
+<td title='com.reqers.testcases.DELETE_DeleteUser_TestCase.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.reqers.testcases.DELETE_DeleteUser_TestCase<br/>
+<a href="#Output-1806640599" onClick='toggleBox("Output-1806640599", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1806640599" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1806640599">
+Response Body is => io.restassured.internal.RestAssuredResponseImpl@63f855b<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.DELETE_DeleteUser_TestCase@692f203f</td></tr>
+<tr>
+<td title='com.reqers.testcases.PUT_UpdateUser_TestCase.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.reqers.testcases.PUT_UpdateUser_TestCase<br/>
+<a href="#Output-174999703" onClick='toggleBox("Output-174999703", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-174999703" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-174999703">
+Status Code is => 200<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.PUT_UpdateUser_TestCase@55182842</td></tr>
+<tr>
+<td title='com.reqers.testcases.POST_Login_TestCase.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.reqers.testcases.POST_Login_TestCase<br/>
+<a href="#Output-1381341801" onClick='toggleBox("Output-1381341801", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1381341801" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1381341801">
+Response Body is => io.restassured.internal.RestAssuredResponseImpl@9accff0<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.POST_Login_TestCase@235834f2</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleUserNotFounf_TestCase.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.reqers.testcases.GET_SingleUserNotFounf_TestCase<br/>
+<a href="#Output-1600206621" onClick='toggleBox("Output-1600206621", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1600206621" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1600206621">
+Status Code is => 404<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleUserNotFounf_TestCase@14cd1699</td></tr>
+<tr>
+<td title='com.reqers.testcases.POST_LoginFail_TestCase.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.reqers.testcases.POST_LoginFail_TestCase<br/>
+<a href="#Output-64614565" onClick='toggleBox("Output-64614565", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-64614565" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-64614565">
+Response Body is => io.restassured.internal.RestAssuredResponseImpl@49c099b<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.POST_LoginFail_TestCase@73a1e9a9</td></tr>
+<tr>
+<td title='com.reqers.testcases.POST_Login_TestCase.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.reqers.testcases.POST_Login_TestCase<br/>
+<a href="#Output-272220100" onClick='toggleBox("Output-272220100", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-272220100" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-272220100">
+Status Line is => HTTP/1.1 200 OK<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.POST_Login_TestCase@235834f2</td></tr>
+<tr>
+<td title='com.reqers.testcases.GET_SingleUser_TestCase.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.reqers.testcases.GET_SingleUser_TestCase<br/>
+<a href="#Output-1303238288" onClick='toggleBox("Output-1303238288", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1303238288" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1303238288">
+Response Body is => io.restassured.internal.RestAssuredResponseImpl@3e377967<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.reqers.testcases.GET_SingleUser_TestCase@3270d194</td></tr>
+</table><p>
+</body>
+</html>

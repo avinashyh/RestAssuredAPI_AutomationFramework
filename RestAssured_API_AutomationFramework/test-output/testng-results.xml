@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="45" passed="44" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@63f855b]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is => 404]]>
+    </line>
+    <line>
+      <![CDATA[Status Line is => HTTP/1.1 404 Not Found]]>
+    </line>
+    <line>
+      <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@7fad214a]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is => 200]]>
+    </line>
+    <line>
+      <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+    </line>
+    <line>
+      <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@3443e476]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is => 200]]>
+    </line>
+    <line>
+      <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+    </line>
+    <line>
+      <![CDATA[Content Type is => application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@3e377967]]>
+    </line>
+    <line>
+      <![CDATA[Response Time is => 137]]>
+    </line>
+    <line>
+      <![CDATA[Response Time is < 2000 ]]>
+    </line>
+    <line>
+      <![CDATA[Server Type is => cloudflare]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is => 200]]>
+    </line>
+    <line>
+      <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+    </line>
+    <line>
+      <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@9accff0]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is => 200]]>
+    </line>
+    <line>
+      <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+    </line>
+    <line>
+      <![CDATA[Content Type is => application/json]]>
+    </line>
+    <line>
+      <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@4c6a4ffd]]>
+    </line>
+    <line>
+      <![CDATA[Response Time is => 1468]]>
+    </line>
+    <line>
+      <![CDATA[Server Type is => nginx/1.21.6]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is => 200]]>
+    </line>
+    <line>
+      <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+    </line>
+    <line>
+      <![CDATA[Content Type is => application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@5042e3d0]]>
+    </line>
+    <line>
+      <![CDATA[Response Time is => 164]]>
+    </line>
+    <line>
+      <![CDATA[Response Time is < 2000 ]]>
+    </line>
+    <line>
+      <![CDATA[Server Type is => cloudflare]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is => 200]]>
+    </line>
+    <line>
+      <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+    </line>
+    <line>
+      <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@62a54948]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is => 201]]>
+    </line>
+    <line>
+      <![CDATA[Status Line is => HTTP/1.1 201 Created]]>
+    </line>
+    <line>
+      <![CDATA[Content Type is => application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@251c4280]]>
+    </line>
+    <line>
+      <![CDATA[Response Time is => 449]]>
+    </line>
+    <line>
+      <![CDATA[Response Time is < 2000 ]]>
+    </line>
+    <line>
+      <![CDATA[Server Type is => cloudflare]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is => 404]]>
+    </line>
+    <line>
+      <![CDATA[Status Line is => HTTP/1.1 404 Not Found]]>
+    </line>
+    <line>
+      <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@4877919f]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is => 200]]>
+    </line>
+    <line>
+      <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+    </line>
+    <line>
+      <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@49c099b]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is => 400]]>
+    </line>
+    <line>
+      <![CDATA[Status Line is => HTTP/1.1 400 Bad Request]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-13T12:39:58 IST" name="Default suite" finished-at="2024-05-13T12:40:38 IST" duration-ms="39854">
+    <groups>
+    </groups>
+    <test started-at="2024-05-13T12:39:58 IST" name="Default test" finished-at="2024-05-13T12:40:38 IST" duration-ms="39854">
+      <class name="com.reqers.testcases.DELETE_DeleteUser_TestCase">
+        <test-method is-config="true" signature="deleteUser()[pri:0, instance:com.reqers.testcases.DELETE_DeleteUser_TestCase@692f203f]" started-at="2024-05-13T12:39:58 IST" name="deleteUser" finished-at="2024-05-13T12:40:02 IST" duration-ms="3983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.reqers.testcases.DELETE_DeleteUser_TestCase@692f203f]" started-at="2024-05-13T12:40:02 IST" name="checkResponseBody" finished-at="2024-05-13T12:40:02 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@63f855b]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.reqers.testcases.DELETE_DeleteUser_TestCase@692f203f]" started-at="2024-05-13T12:40:02 IST" name="checkStatusCode" finished-at="2024-05-13T12:40:02 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is => 404]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.reqers.testcases.DELETE_DeleteUser_TestCase@692f203f]" started-at="2024-05-13T12:40:02 IST" name="checkStatusLine" finished-at="2024-05-13T12:40:02 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Line is => HTTP/1.1 404 Not Found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.reqers.testcases.DELETE_DeleteUser_TestCase -->
+      <class name="com.reqers.testcases.POST_Registration_TestCase">
+        <test-method is-config="true" signature="postRegistration()[pri:0, instance:com.reqers.testcases.POST_Registration_TestCase@55141def]" started-at="2024-05-13T12:40:02 IST" name="postRegistration" finished-at="2024-05-13T12:40:08 IST" duration-ms="5645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRegistration -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.reqers.testcases.POST_Registration_TestCase@55141def]" started-at="2024-05-13T12:40:08 IST" name="checkResponseBody" finished-at="2024-05-13T12:40:08 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@7fad214a]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.reqers.testcases.POST_Registration_TestCase@55141def]" started-at="2024-05-13T12:40:08 IST" name="checkStatusCode" finished-at="2024-05-13T12:40:08 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is => 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.reqers.testcases.POST_Registration_TestCase@55141def]" started-at="2024-05-13T12:40:08 IST" name="checkStatusLine" finished-at="2024-05-13T12:40:08 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.reqers.testcases.POST_Registration_TestCase -->
+      <class name="com.reqers.testcases.PUT_UpdateUser_TestCase">
+        <test-method is-config="true" signature="putUpdateUsers()[pri:0, instance:com.reqers.testcases.PUT_UpdateUser_TestCase@55182842]" started-at="2024-05-13T12:40:08 IST" name="putUpdateUsers" finished-at="2024-05-13T12:40:14 IST" duration-ms="5505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putUpdateUsers -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.reqers.testcases.PUT_UpdateUser_TestCase@55182842]" started-at="2024-05-13T12:40:14 IST" name="checkResponseBody" finished-at="2024-05-13T12:40:14 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@3443e476]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.reqers.testcases.PUT_UpdateUser_TestCase@55182842]" started-at="2024-05-13T12:40:14 IST" name="checkStatusCode" finished-at="2024-05-13T12:40:14 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is => 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.reqers.testcases.PUT_UpdateUser_TestCase@55182842]" started-at="2024-05-13T12:40:14 IST" name="checkStatusLine" finished-at="2024-05-13T12:40:14 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.reqers.testcases.PUT_UpdateUser_TestCase -->
+      <class name="com.reqers.testcases.GET_SingleUser_TestCase">
+        <test-method is-config="true" signature="getAllUsers()[pri:0, instance:com.reqers.testcases.GET_SingleUser_TestCase@3270d194]" started-at="2024-05-13T12:40:14 IST" name="getAllUsers" finished-at="2024-05-13T12:40:14 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method signature="checkContentType()[pri:0, instance:com.reqers.testcases.GET_SingleUser_TestCase@3270d194]" started-at="2024-05-13T12:40:14 IST" name="checkContentType" finished-at="2024-05-13T12:40:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Content Type is => application/json; charset=utf-8]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.reqers.testcases.GET_SingleUser_TestCase@3270d194]" started-at="2024-05-13T12:40:14 IST" name="checkResponseBody" finished-at="2024-05-13T12:40:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@3e377967]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.reqers.testcases.GET_SingleUser_TestCase@3270d194]" started-at="2024-05-13T12:40:14 IST" name="checkResponseTime" finished-at="2024-05-13T12:40:14 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Time is => 137]]>
+            </line>
+            <line>
+              <![CDATA[Response Time is < 2000 ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkServerType()[pri:0, instance:com.reqers.testcases.GET_SingleUser_TestCase@3270d194]" started-at="2024-05-13T12:40:14 IST" name="checkServerType" finished-at="2024-05-13T12:40:14 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Server Type is => cloudflare]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.reqers.testcases.GET_SingleUser_TestCase@3270d194]" started-at="2024-05-13T12:40:14 IST" name="checkStatusCode" finished-at="2024-05-13T12:40:14 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is => 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.reqers.testcases.GET_SingleUser_TestCase@3270d194]" started-at="2024-05-13T12:40:14 IST" name="checkStatusLine" finished-at="2024-05-13T12:40:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.reqers.testcases.GET_SingleUser_TestCase -->
+      <class name="com.reqers.testcases.GetUserListTest">
+        <test-method is-config="true" signature="getAllUsers()[pri:0, instance:com.reqers.testcases.GetUserListTest@5656be13]" started-at="2024-05-13T12:40:19 IST" name="getAllUsers" finished-at="2024-05-13T12:40:21 IST" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method signature="checkContentType()[pri:0, instance:com.reqers.testcases.GetUserListTest@5656be13]" started-at="2024-05-13T12:40:21 IST" name="checkContentType" finished-at="2024-05-13T12:40:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Content Type is => application/json]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.reqers.testcases.GetUserListTest@5656be13]" started-at="2024-05-13T12:40:21 IST" name="checkResponseBody" finished-at="2024-05-13T12:40:21 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@4c6a4ffd]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.reqers.testcases.GetUserListTest@5656be13]" started-at="2024-05-13T12:40:21 IST" name="checkResponseTime" finished-at="2024-05-13T12:40:21 IST" duration-ms="38" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.reqers.testcases.GetUserListTest.checkResponseTime(GetUserListTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Response Time is => 1468]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkServerType()[pri:0, instance:com.reqers.testcases.GetUserListTest@5656be13]" started-at="2024-05-13T12:40:21 IST" name="checkServerType" finished-at="2024-05-13T12:40:21 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Server Type is => nginx/1.21.6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.reqers.testcases.GetUserListTest@5656be13]" started-at="2024-05-13T12:40:21 IST" name="checkStatusCode" finished-at="2024-05-13T12:40:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is => 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.reqers.testcases.GetUserListTest@5656be13]" started-at="2024-05-13T12:40:21 IST" name="checkStatusLine" finished-at="2024-05-13T12:40:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.reqers.testcases.GetUserListTest -->
+      <class name="com.reqers.testcases.POST_Login_TestCase">
+        <test-method is-config="true" signature="postLogin()[pri:0, instance:com.reqers.testcases.POST_Login_TestCase@235834f2]" started-at="2024-05-13T12:40:14 IST" name="postLogin" finished-at="2024-05-13T12:40:19 IST" duration-ms="5437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLogin -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.reqers.testcases.POST_Login_TestCase@235834f2]" started-at="2024-05-13T12:40:19 IST" name="checkResponseBody" finished-at="2024-05-13T12:40:19 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@9accff0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.reqers.testcases.POST_Login_TestCase@235834f2]" started-at="2024-05-13T12:40:19 IST" name="checkStatusCode" finished-at="2024-05-13T12:40:19 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is => 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.reqers.testcases.POST_Login_TestCase@235834f2]" started-at="2024-05-13T12:40:19 IST" name="checkStatusLine" finished-at="2024-05-13T12:40:19 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.reqers.testcases.POST_Login_TestCase -->
+      <class name="com.reqers.testcases.GET_SingleResource_TestCase">
+        <test-method is-config="true" signature="getSingleResource()[pri:0, instance:com.reqers.testcases.GET_SingleResource_TestCase@4218d6a3]" started-at="2024-05-13T12:40:21 IST" name="getSingleResource" finished-at="2024-05-13T12:40:21 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleResource -->
+        <test-method signature="checkContentType()[pri:0, instance:com.reqers.testcases.GET_SingleResource_TestCase@4218d6a3]" started-at="2024-05-13T12:40:21 IST" name="checkContentType" finished-at="2024-05-13T12:40:21 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Content Type is => application/json; charset=utf-8]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.reqers.testcases.GET_SingleResource_TestCase@4218d6a3]" started-at="2024-05-13T12:40:21 IST" name="checkResponseBody" finished-at="2024-05-13T12:40:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@5042e3d0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.reqers.testcases.GET_SingleResource_TestCase@4218d6a3]" started-at="2024-05-13T12:40:21 IST" name="checkResponseTime" finished-at="2024-05-13T12:40:21 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Time is => 164]]>
+            </line>
+            <line>
+              <![CDATA[Response Time is < 2000 ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkServerType()[pri:0, instance:com.reqers.testcases.GET_SingleResource_TestCase@4218d6a3]" started-at="2024-05-13T12:40:21 IST" name="checkServerType" finished-at="2024-05-13T12:40:21 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Server Type is => cloudflare]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.reqers.testcases.GET_SingleResource_TestCase@4218d6a3]" started-at="2024-05-13T12:40:21 IST" name="checkStatusCode" finished-at="2024-05-13T12:40:21 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is => 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.reqers.testcases.GET_SingleResource_TestCase@4218d6a3]" started-at="2024-05-13T12:40:21 IST" name="checkStatusLine" finished-at="2024-05-13T12:40:21 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.reqers.testcases.GET_SingleResource_TestCase -->
+      <class name="com.reqers.testcases.PATCH_UpdateUser_TestCase">
+        <test-method is-config="true" signature="updateUsers()[pri:0, instance:com.reqers.testcases.PATCH_UpdateUser_TestCase@77888435]" started-at="2024-05-13T12:40:27 IST" name="updateUsers" finished-at="2024-05-13T12:40:33 IST" duration-ms="5458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUsers -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.reqers.testcases.PATCH_UpdateUser_TestCase@77888435]" started-at="2024-05-13T12:40:33 IST" name="checkResponseBody" finished-at="2024-05-13T12:40:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@4877919f]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.reqers.testcases.PATCH_UpdateUser_TestCase@77888435]" started-at="2024-05-13T12:40:33 IST" name="checkStatusCode" finished-at="2024-05-13T12:40:33 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is => 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.reqers.testcases.PATCH_UpdateUser_TestCase@77888435]" started-at="2024-05-13T12:40:33 IST" name="checkStatusLine" finished-at="2024-05-13T12:40:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Line is => HTTP/1.1 200 OK]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.reqers.testcases.PATCH_UpdateUser_TestCase -->
+      <class name="com.reqers.testcases.GET_SingleUserNotFounf_TestCase">
+        <test-method is-config="true" signature="getAllUsers()[pri:0, instance:com.reqers.testcases.GET_SingleUserNotFounf_TestCase@14cd1699]" started-at="2024-05-13T12:40:27 IST" name="getAllUsers" finished-at="2024-05-13T12:40:27 IST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method signature="checkContentType()[pri:0, instance:com.reqers.testcases.GET_SingleUserNotFounf_TestCase@14cd1699]" started-at="2024-05-13T12:40:27 IST" name="checkContentType" finished-at="2024-05-13T12:40:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Content Type is => application/json; charset=utf-8]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.reqers.testcases.GET_SingleUserNotFounf_TestCase@14cd1699]" started-at="2024-05-13T12:40:27 IST" name="checkResponseBody" finished-at="2024-05-13T12:40:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@251c4280]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.reqers.testcases.GET_SingleUserNotFounf_TestCase@14cd1699]" started-at="2024-05-13T12:40:27 IST" name="checkResponseTime" finished-at="2024-05-13T12:40:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Time is => 449]]>
+            </line>
+            <line>
+              <![CDATA[Response Time is < 2000 ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkServerType()[pri:0, instance:com.reqers.testcases.GET_SingleUserNotFounf_TestCase@14cd1699]" started-at="2024-05-13T12:40:27 IST" name="checkServerType" finished-at="2024-05-13T12:40:27 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Server Type is => cloudflare]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.reqers.testcases.GET_SingleUserNotFounf_TestCase@14cd1699]" started-at="2024-05-13T12:40:27 IST" name="checkStatusCode" finished-at="2024-05-13T12:40:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is => 404]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.reqers.testcases.GET_SingleUserNotFounf_TestCase@14cd1699]" started-at="2024-05-13T12:40:27 IST" name="checkStatusLine" finished-at="2024-05-13T12:40:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Line is => HTTP/1.1 404 Not Found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.reqers.testcases.GET_SingleUserNotFounf_TestCase -->
+      <class name="com.reqers.testcases.POST_CreateUser_TestCase">
+        <test-method is-config="true" signature="postCreateUsers()[pri:0, instance:com.reqers.testcases.POST_CreateUser_TestCase@76505305]" started-at="2024-05-13T12:40:21 IST" name="postCreateUsers" finished-at="2024-05-13T12:40:27 IST" duration-ms="5488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCreateUsers -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.reqers.testcases.POST_CreateUser_TestCase@76505305]" started-at="2024-05-13T12:40:27 IST" name="checkResponseBody" finished-at="2024-05-13T12:40:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@62a54948]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.reqers.testcases.POST_CreateUser_TestCase@76505305]" started-at="2024-05-13T12:40:27 IST" name="checkStatusCode" finished-at="2024-05-13T12:40:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is => 201]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.reqers.testcases.POST_CreateUser_TestCase@76505305]" started-at="2024-05-13T12:40:27 IST" name="checkStatusLine" finished-at="2024-05-13T12:40:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Line is => HTTP/1.1 201 Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.reqers.testcases.POST_CreateUser_TestCase -->
+      <class name="com.reqers.testcases.POST_LoginFail_TestCase">
+        <test-method is-config="true" signature="postLoginFail()[pri:0, instance:com.reqers.testcases.POST_LoginFail_TestCase@73a1e9a9]" started-at="2024-05-13T12:40:33 IST" name="postLoginFail" finished-at="2024-05-13T12:40:38 IST" duration-ms="5479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLoginFail -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.reqers.testcases.POST_LoginFail_TestCase@73a1e9a9]" started-at="2024-05-13T12:40:38 IST" name="checkResponseBody" finished-at="2024-05-13T12:40:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Body is => io.restassured.internal.RestAssuredResponseImpl@49c099b]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.reqers.testcases.POST_LoginFail_TestCase@73a1e9a9]" started-at="2024-05-13T12:40:38 IST" name="checkStatusCode" finished-at="2024-05-13T12:40:38 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is => 400]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.reqers.testcases.POST_LoginFail_TestCase@73a1e9a9]" started-at="2024-05-13T12:40:38 IST" name="checkStatusLine" finished-at="2024-05-13T12:40:38 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Line is => HTTP/1.1 400 Bad Request]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.reqers.testcases.POST_LoginFail_TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
